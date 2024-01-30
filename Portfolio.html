@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang = "fr">
 	<head>
 		<title>Portofolio Web page</title>
 		<meta charset='uft-8'>
-		<link rel="icon" href="images/icon.jpg">
+		<link rel="icon" href="media/icon.jpg">
 	</head>
 	<body>
 		<header>
 			<nav>
-				<a href = "#accueil">Accueil</a>
+				<a>Accueil</a>
 				<a href = "#apropos">A propos</a>
-				<a href = "#travail">Travail</a>
+				<a href = "#comp">Compétences</a>
 				<a href = "#portfolio">Portfolio</a>
 				<a href = "#cv">CV</a>
 				<a href = "#contact">Contact</a>
@@ -18,8 +18,87 @@
 		</header>
 
 		<section>
-			<h2>A propos de moi</h2>
-			<p></p>
+			<h2 id = "apropos">A propos de moi</h2>
+			<p>
+				<figure>
+					<img src = "media/mypicture.jpeg" alt = "Ma photo">
+				</figure>
+				Je m'appelle MonganJosué Saint-Martin Junior. J'ai 18 ans et je suis célibataire.
+				Je suis un actuellement étudiant à Gomycode. Je suis passionné de l'informatique. Calme et jovial, j'aime aussi la lecture. 
+				J'apprécie particulièrement les romans policiers et les histoires d'aventure. Je sais également joué un peu de piano.
+				<br>
+				Mon rêve est devenir un jour un expert en informatique et de pouvoir pourquoi pas faire une découverte qui permettrait 
+				de révolutionner ce domaine.
+			</p>
+		</section>
+
+		<section>
+			<h2 id = "comp">Compétences</h2>
+			<h3>Hardskills</h3>
+			<dl>
+				<dt>Langage C++</dt>
+				<dd>
+					Le langage C++ étant un langage très proche de la machine et assez versatile, il est très demandé. Malgré sa difficulté d'apprentissage 
+					pur beaucoup, j'ai réussi à acquérir des compétences dans la proogrammation en C++. J'ai d'ailleurs un niveau intermédiaire dans ce 
+					domaine. Cela se réflète également à travers <a href = "#projetc++">les projets</a> que j'ai réalisé.
+				</dd>
+				<dt>Développement Web</dt>
+				<dd>
+					J'ai également quelques connaissances en développement web front-end. Je maitrise le html et le CSS. 
+					Vous pourrez trouver le voir dans <a href = "#projetweb">les projets</a> que j'ai réalisé.
+				</dd>
+			</dl>
+
+			<h3>Softskills</h3>
+			<dl>
+				<dt>Résolution de problèmes</dt>
+				<dd>
+					J'ai une certaine facilité à analyser les situations, à identifier les problèmes et à proposer des solutions appropriées.
+					Ma nature calme me permet également d'analyser les problèmes avec patience afin de trouver la meilleure solution.
+				</dd>
+				<dt>Communication</dt>
+				<dd>
+					Je réussis à communiquer avec les autres et à transmettre mes idées. En plus, ma maitrise de la langue française et aussi 
+					de celle anglaise me donne une ceraine flexibilité lors des échanges.
+				</dd>
+				<dt>Le travail en équipe</dt>
+				<dd>
+					Travailler efficacement avec d'autres personnes est aussi un autre de mes atout. D'ailleurs mes capacité de communication m'aident 
+					à collaborer et à contribuer à un environnement de travail positif.
+				</dd>
+			</dl>
+		</section>
+
+		<section>
+			<h2 id = "portfolio">Porfolio</h2>
+			
+			<h3 id = "projetc++">Projets C++</h3>
+			<p>
+				Voici un de mes projets en C++. Il s'agit d'un jeu de bataille aérienne. Pour pouvoir le faire, j'ai dû mettre en jeu plusieurs compétences 
+				C++ notamment les notions de programmation Orienté Objet. Je vous insère ci-dessous un aperçu du jeu.
+			</p>
+			<figure>
+				<video width = "1000" height = "500" autoplay>
+					<source  src = "medairbattle.mp4" type = "video/mp4">
+				</video>
+			</figure>
+
+			<h3 id = "projetweb">Projets Web</h3>
+			<p>
+				J'ai également développé une page web dont je vous donne une image réduite ci-dessous. J'ai participé à la partie front-end en mettant ainsi à profit 
+				mes connaissances en html et en CSS.
+			</p>
+			<figure>
+				<img src = "media/Web.jpg" alt = "Image de la page Web">
+			</figure>
+		</section>
+
+		<section>
+			<h2 id = "cv">Mon CV</h2>
+			<p>Voici ici mon cv. Pour davantage d'informations sur moi veuillez vous rendre <a href = "https://fr.linkedin.com/" target = "_blank">ici</a>.</p>
+			<figure>
+				<img src = "media/cv.jpg" alt = "Mon CV">
+			</figure>
 		</section>
 		
 		<footer>
@@ -37,10 +116,10 @@
 			</nav>
 			<p>Je suis aussi joignable à travers les canaux suivants:</p>
 			<form>
-				<button><a href = "https://web.facebook.com/?locale=fr_FR&_rdc=1&_rdr"><img src = "facebook.jpg" alt = "Boutton facebook"></a></button>
-				<button><a href = "https://www.instagram.com/"><img src = "insta.jpg" alt = "Boutton instagram"></a></button>
-				<button><a href = "https://twitter.com/i/flow/login"><img src = "twitter.jpg" alt = "Boutton twitter"></a></button>
-				<button><a href = "https://fr.linkedin.com/"><img src = "linkedin.jpg" alt = "Boutton linkedin"></a></button>
+				<button><a href = "https://web.facebook.com/?locale=fr_FR&_rdc=1&_rdr" target = "_blank"><img src = "media/facebook.jpg" alt = "Boutton facebook"></a></button>
+				<button><a href = "https://www.instagram.com/" target = "_blank"><img src = "media/insta.jpg" alt = "Boutton instagram"></a></button>
+				<button><a href = "https://twitter.com/i/flow/login" target = "_blank"><img src = "media/twitter.jpg" alt = "Boutton twitter"></a></button>
+				<button><a href = "https://fr.linkedin.com/" target = "_blank"><img src = "media/linkedin.jpg" alt = "Boutton linkedin"></a></button>
 			</form>
 		</footer>
 	</body>
